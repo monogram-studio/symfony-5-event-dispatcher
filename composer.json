@@ -1,20 +1,23 @@
 {
+    "name": "monogramstudio/symfony-5-event-dispatcher",
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
+    "description": "Symfony 5 The EventDispatcher Component Demo",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.2.5",
+        "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/annotations": "^1.13",
         "symfony/console": "5.4.*",
         "symfony/dotenv": "5.4.*",
+        "symfony/event-dispatcher": "5.4.*",
         "symfony/flex": "^1.17|^2",
         "symfony/framework-bundle": "5.4.*",
+        "symfony/monolog-bundle": "^3.8",
         "symfony/runtime": "5.4.*",
         "symfony/yaml": "5.4.*"
-    },
-    "require-dev": {
     },
     "config": {
         "allow-plugins": {
